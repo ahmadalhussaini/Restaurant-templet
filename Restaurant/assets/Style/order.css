@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cart-data {
+  padding: 10px;
+  margin: 40px auto;
+}
+
+.title-order {
+  font-size: 25px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.checkout {
+  text-align: center;
+}
+
+.your-cart {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-cart {
+  border-bottom: 1px solid #b1a05a;
+  padding: 15px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title-tourcart {
+  font-family: Poiret One;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: left;
+  color: #6e5d17;
+  margin-bottom: 16px;
+}
+
+.line {
+  color: #6e5d17;
+  margin-bottom: 35px;
+}
+
+.item-image img {
+  height: 150px;
+  width: 150px;
+}
+
+.details-item {
+  text-align: left;
+}
+
+.details-item p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0F3727;
+  text-align: left;
+}
+
+.details-item {
+  margin-top: 14px;
+  text-align: left;
+}
+
+.details-item label {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0F3727;
+  text-align: left;
+}
+
+.number-item .input-number {
+  border: none;
+  width: 135px;
+  -webkit-box-shadow: -1px -1px 3px #a7a3a7;
+          box-shadow: -1px -1px 3px #a7a3a7;
+  height: 50px;
+  margin-top: 14px;
+}
+
+.input-number button {
+  width: 25px;
+  height: 25px;
+  border: unset;
+  background: #FA9825;
+  color: white;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.input-number p {
+  font-size: 20px;
+  line-height: 27px;
+  color: #6e5d17;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+
+.prodect-button {
+  margin-top: 50px;
+}
+
+.pric-item {
+  margin-top: 14px;
+}
+
+.pric-item p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0F3727;
+}
+
+.pric-item a {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #b1a05a;
+}
+
+.summary {
+  background: #f6f6f8;
+  border-radius: 30px;
+}
+
+.title-summary {
+  font-family: Poiret One;
+  font-size: 50px;
+  line-height: 58px;
+  color: #0F3727;
+  margin: 30px 0 0 35px;
+  text-align: left;
+}
+
+.all-price {
+  margin: 40px 33px;
+}
+
+.cart-subtotal,
+.tax,
+.delivery-to-jordan,
+.loyalty-points,
+.discount {
+  margin-bottom: 30px;
+}
+
+.cart-subtotal h6,
+.tax h6,
+.Discount h6,
+.Total h6 {
+  font-family: Montserrat;
+  font-size: 27px;
+  line-height: 24px;
+  color: #707070;
+  text-align: left;
+}
+
+.cart-subtotal P,
+.tax P,
+.Discount P,
+.Total p {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0F3727;
+}
+
+.Discount p {
+  color: red;
+}
+
+.loyalty-points h6,
+.discount h6 {
+  margin-left: 10px;
+}
+
+.loyalty-points p,
+.discount p {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 24px;
+  color: #de3131;
+}
+
+.loyalty-discount {
+  border-left: 2px solid #b1a05a;
+  border-radius: 1px;
+}
+
+.Total {
+  margin-bottom: 30px;
+}
+
+.Total h6 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #707070;
+}
+
+.checkout button:first-child {
+  background: none;
+  border-radius: 30px;
+  color: #FA9825;
+  padding: 10px;
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  border: 1px solid #FA9825;
+}
+
+.checkout button:first-child:hover {
+  background: #FA9825;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 10px;
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  border: none;
+}
+
+.checkout button:last-child {
+  background: #FA9825;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 10px;
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  border: none;
+}
+
+.checkout-btn a {
+  text-decoration: unset;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .item-image img {
+    height: 100px;
+    width: 100px;
+  }
+  .number-item .input-number {
+    border: none;
+    width: 90px;
+    -webkit-box-shadow: -1px -1px 3px #a7a3a7;
+            box-shadow: -1px -1px 3px #a7a3a7;
+    height: 40px;
+    margin-top: 14px;
+  }
+  .cart-data {
+    padding: 10px;
+  }
+  .number-item .input-number {
+    margin: 10px auto;
+    margin-left: 20px;
+  }
+  .pric-item {
+    margin: 1px auto;
+    margin-left: 30px;
+  }
+  .details-item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .item-cart {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .checkout button {
+    width: 170px;
+    height: 50px;
+    color: #ffffff;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .summary {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .footer-cart a {
+    font-size: 15px;
+  }
+  .footer-cart p {
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6e5d17;
+  }
+}
+/*# sourceMappingURL=order.css.map */

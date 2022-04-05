@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-primary {
+  background-color: #FA9825;
+}
+
+.accordion-body a {
+  text-decoration: unset;
+}
+
+.background-gray-1 {
+  background-color: #E2E2E2;
+}
+
+.menu-header {
+  height: 300px;
+  width: 100%;
+  background-image: url("../image/about-us-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid;
+}
+
+.icone-header {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.title-header {
+  width: 70%;
+  margin: 10px auto;
+  margin-top: 200px;
+}
+
+.title-header .name-restaurant {
+  margin-top: 23px;
+  color: white;
+  font-size: 25px;
+}
+
+.name-restaurant span {
+  color: black;
+  font-size: 15px;
+}
+
+.contener-search {
+  margin-top: 70px;
+}
+
+.contener-search .icone {
+  height: 25px;
+  margin: 5px;
+}
+
+.time-header {
+  font-size: 22px;
+}
+
+.button-location {
+  height: 55x;
+  margin-top: -10px;
+  width: 173px;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.all-item .accordion-button:not(.collapsed) {
+  background-color: unset;
+}
+
+.input-search input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+
+.input-search input::-webkit-input-placeholder {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.input-search input:-ms-input-placeholder {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.input-search input::-ms-input-placeholder {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.input-search input::placeholder {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.filter-button {
+  margin: 20px auto;
+  width: 95%;
+  height: 100px;
+  border: 1px solid #0F3727;
+}
+
+.all-button {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+  overflow-x: scroll;
+  height: 100px;
+  z-index: 20;
+}
+
+.all-button .type-button {
+  font-size: 15px;
+  width: 121px;
+  height: 30px;
+  background-color: unset;
+  margin: 20px;
+  border: none;
+  border: 1px solid #0F3727;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+.all-button .type-button:hover,
+.type-button:focus {
+  background-color: #FA9825;
+  color: white;
+  border: unset;
+}
+
+.all-button .type-button a {
+  text-decoration: unset;
+  color: #0F3727;
+}
+
+.all-item {
+  margin-top: 40px;
+}
+
+.item {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.item img {
+  border-radius: 40px;
+}
+
+.all-button::-webkit-scrollbar {
+  height: 4px;
+}
+
+.all-button::-webkit-scrollbar-thumb {
+  background: #0F3727;
+  border-radius: 10px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-body {
+  margin: 1px auto;
+}
+
+.all-item .accordion-item:first-of-type .accordion-button {
+  background-color: unset;
+}
+
+.all-item .accordion-button:not(.collapsed) {
+  color: unset;
+  font-size: 30px;
+  color: #FA9825;
+  border: #FA9825;
+}
+
+.all-item .collapsed {
+  border: none;
+  border: 1px solid #0F3727;
+  border-radius: 20px;
+  font-size: 30px;
+  color: #0F3727;
+}
+
+.item .item-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #0F3727;
+}
+
+.item .item-price-old {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555453;
+  text-decoration: line-through;
+}
+
+.item .item-price-new {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #FA9825;
+}
+
+.item .item-description {
+  font-size: 20px;
+  color: #0F3727;
+}
+
+.accordion-item {
+  width: 90%;
+  border-radius: 20px;
+  margin: 30px auto;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.footer .footer-icon img {
+  margin: 5px;
+}
+
+.footer .footer-powered p {
+  margin: 5px;
+  font-size: 22px;
+}
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,301 @@
+$primary: #FA9825;
+$secondary: #0F3727;
+$third: #4A8145;
+$gray-1: #E2E2E2;
+$gray-2:#707070;
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+.contact-title{
+    font-size: 28px;
+    color: $secondary;
+    text-align: center;
+    margin-top: 15px;
+}
+.contact-details{
+width: 95%;
+margin: 40px auto;
+}
+.input-form{
+    margin-top: 60px;
+}
+.input-form .all-label label{
+font-size: 21px;
+color: $secondary;
+margin: 2px;
+}
+.input-form .all-input input {
+    width: 250px;
+    border-radius:10px ;
+    margin: 5px;
+    box-shadow: -1px -1px 2px rgb(138, 135, 135);
+}
+
+.available-options p{
+    font-size: 20px;
+    color: $secondary;
+
+}
+.available-options .steps .item-steps:first-child{
+    padding: 20px 5px 10px 5px;  
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: $primary;
+    border-radius: 10px;
+    margin: 10px;
+}
+.available-options .steps .item-steps:nth-child(2) {
+    padding: 20px 5px 10px 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.available-options .steps .item-steps:last-child {
+    padding: 20px 5px 10px 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.available-options .steps .item-steps:first-child p{
+    color: white;
+    margin-top: 16px;
+    font-size: 13px;
+}
+.available-options .steps .item-steps:nth-child(2) p ,.available-options .steps .item-steps:last-child p {
+    color: black;
+    margin-top: 16px;
+    font-size: 13px;
+}
+.add-note{
+    width: 80%;
+    margin: 10px auto;
+}
+.add-note p{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-note textarea{
+    height: 120px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.all-Basket{
+   
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+.all-Basket .title{
+    font-size: 23px;
+    color: $secondary;
+    float: left;
+}
+.all-Basket .edit-icone {
+    float: right;
+}
+.items .item-basket{
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    
+}
+.items .item-basket img {
+    border-radius: 20px;
+    display: block;
+    margin: 1px auto;
+    height: 90%;
+    width: 90%;
+}
+.items .item-basket .price{
+   color: $primary;
+   font-size: 17px;
+   text-align: center;
+   margin: 1px auto;
+}
+.items .item-basket .name {
+    color: $secondary;
+    font-size: 17px;
+    text-align: center;
+    margin: 1px auto;
+    
+}
+.summary {
+    width: 95%;
+    margin-bottom: 10px;
+    background: #f6f6f8;
+    border-radius: 30px;
+}
+
+.title-summary {
+    font-family: Poiret One;
+    font-size: 50px;
+    line-height: 58px;
+    color: $secondary;
+    margin: 30px 0 0 35px;
+    text-align: left;
+}
+
+.all-price {
+    margin: 40px 33px;
+}
+
+.cart-subtotal,
+.tax,
+.delivery-to-jordan,
+.loyalty-points,
+.discount {
+    margin-bottom: 30px;
+}
+
+.cart-subtotal h6,
+.tax h6,
+.Discount h6,
+.Total h6 {
+    font-family: Montserrat;
+    font-size: 27px;
+    line-height: 24px;
+    color: $gray-2;
+    text-align: left;
+}
+
+.cart-subtotal P,
+.tax P,
+.Discount P,
+.Total p {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24px;
+    color: $secondary;
+}
+
+.Discount p {
+    color: red;
+}
+
+.loyalty-points h6,
+.discount h6 {
+    margin-left: 10px;
+}
+
+.loyalty-points p,
+.discount p {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24px;
+    color: #de3131;
+}
+
+.loyalty-discount {
+    border-left: 2px solid #b1a05a;
+    border-radius: 1px;
+}
+
+.Total {
+    margin-bottom: 30px;
+}
+
+.Total h6 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: $gray-2;
+}.checkout{
+    padding-bottom:40px ;
+}
+.checkout-btn{
+    border-radius: 20px;
+    height: 110px;
+    width: 120px;
+    border: none;
+}
+.checkout-btn p{
+    margin-top: 10px;
+}
+.checkout-btn:first-child{
+   
+    background-color: white;
+}
+
+.checkout-btn:last-child {
+    color: white;
+    background-color: $primary;
+
+}
+.Card{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 95%;
+}
+.Card .title-Card{
+    margin-top: 20px;
+    text-align: center;
+}
+.format{
+width: 90%;
+margin: 10px auto;
+}
+
+.format .card-number label {
+    font-size: 20px;
+    color: $gray-2;
+    margin-bottom: 6px;
+}
+.format .card-number input {
+   width: 100%;
+   height: 45px;
+}
+.format .valid label , .format .ccv label{
+    margin-top: 20px;
+    font-size: 20px;
+    color: $gray-2;
+    margin-bottom: 6px;
+}
+.format .valid input , .format .ccv input{
+    width: 100%;
+    height: 37px;
+}
+.cart-details p{
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    color: $gray-2;
+}
+.card-order button{
+    width: 85%;
+    margin: 20px auto;
+    background-color: $primary;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    color: white;
+    height:65px;
+}
+.footer {
+    width: 96%;
+    margin: 10px auto;
+    text-align: center;
+    color: $secondary;
+} 
+.footer span{
+color: $primary;
+}
+@media only screen and (max-width: 900px) {
+    .available-options{
+        margin-top: 40px;
+    }
+    .all-Basket {
+        width: 95%;
+        
+    }
+}

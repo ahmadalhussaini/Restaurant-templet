@@ -1,0 +1,165 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.product-header img {
+  width: 100%;
+  height: 297px;
+}
+
+.all-details {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.details .name {
+  font-size: 25px;
+  color: #0F3727;
+}
+
+.details .description {
+  font-size: 18px;
+  color: #707070;
+}
+
+.details-price {
+  border-bottom: 5px solid #9b9999;
+}
+
+.details-price .price p {
+  font-size: 25px;
+  color: #FA9825;
+}
+
+.details-price .counter {
+  height: 50px;
+  width: 114px;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 3px #e9e3e3;
+          box-shadow: 3px 3px 3px #e9e3e3;
+}
+
+.details-price .counter button {
+  border: none;
+  background-color: #FA9825;
+  color: white;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+
+.details-price .counter span {
+  margin: 0 10px;
+  border-bottom: 1px solid black;
+}
+
+.details-price .share {
+  font-size: 22px;
+}
+
+.details-price .share span {
+  margin-right: 10px;
+}
+
+.choice-size {
+  margin: 30px 0;
+  border-bottom: 5px solid #9b9999;
+}
+
+.choice-size .title {
+  font-size: 25px;
+  color: #0F3727;
+}
+
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+
+.choice-size input[type="radio"]:checked {
+  background-color: #FA9825;
+}
+
+.choice-size label {
+  margin-left: 10px;
+}
+
+.adds-one {
+  margin: 20px 0;
+  border-bottom: 5px solid #9b9999;
+}
+
+.adds-one .title {
+  font-size: 25px;
+  color: #0F3727;
+}
+
+.adds-one label {
+  margin-left: 10px;
+}
+
+.Special-Instructions .title {
+  font-size: 25px;
+  color: #0F3727;
+}
+
+.Special-Instructions textarea {
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 20px;
+  height: 150px;
+  border: none;
+  border: 1px solid #0F3727;
+  padding: 10px;
+}
+
+.Special-Instructions button {
+  width: 50%;
+  display: block;
+  margin: 1px auto;
+  height: 50px;
+  background-color: #FA9825;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 22px;
+}
+
+.item-add {
+  border-bottom: 1px solid #616060;
+  padding-bottom: 10px;
+}
+
+.item-choice {
+  border-bottom: 1px solid #616060;
+  padding: 20px 0;
+}
+
+.add-price {
+  margin-top: -7px;
+  float: right;
+}
+
+.Special-Instructions a {
+  text-decoration: unset;
+}
+
+@media only screen and (max-width: 700px) {
+  .all-details {
+    width: 95%;
+    margin: 30px auto;
+  }
+}
+/*# sourceMappingURL=productDetail.css.map */
